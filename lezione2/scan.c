@@ -8,7 +8,7 @@ int main(void)
 	printf("Digita un carattere: ");
 	/* & e' necessario. %*c legge un carattere
 	ma non lo memorizza */
-	scanf("%c%*c",&car); 
+	scanf("%c%*c",&car); // %*c legge un carattere ma non lo memorizza
 	
 	printf("Hai digitato: %c\n",car);
 	printf("Digitane un altro: ");
